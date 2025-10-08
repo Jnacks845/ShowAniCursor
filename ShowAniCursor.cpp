@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <windowsx.h>
 
-HICON LoadAniIcon(HINSTANCE hInst, LPCTSTR name)
+HICON LoadAnimatedIcon(HINSTANCE hInst, LPCTSTR name)
 {
     HRSRC hRsrc = FindResource(hInst, name, RT_ANIICON);
     DWORD cbData = SizeofResource(hInst, hRsrc);
@@ -10,7 +10,7 @@ HICON LoadAniIcon(HINSTANCE hInst, LPCTSTR name)
     return (HCURSOR)CreateIconFromResource((PBYTE)pvData, cbData, TRUE, 0x00030000);
 }
 
-HCURSOR LoadAniCursor(HINSTANCE hInst, LPCTSTR name)
+HCURSOR LoadAnimatedCursor(HINSTANCE hInst, LPCTSTR name)
 {
     HRSRC hRsrc = FindResource(hInst, name, RT_ANICURSOR);
     DWORD cbData = SizeofResource(hInst, hRsrc);
@@ -21,7 +21,7 @@ HCURSOR LoadAniCursor(HINSTANCE hInst, LPCTSTR name)
 
 BOOL OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam)
 {
-    HCURSOR hcur = LoadAniCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(1));
+    HCURSOR hcur = LoadAnimatedCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(1));
     //HCURSOR hcur = LoadCursorFromFile(TEXT("searching.ani"));
     SendDlgItemMessage(hwnd, ico1, STM_SETIMAGE, IMAGE_CURSOR, (LPARAM)hcur);
     return TRUE;
