@@ -1,1 +1,3 @@
-# ShowAniCursor
+# ShowAniCursor by katahiromz
+
+License: MIT
