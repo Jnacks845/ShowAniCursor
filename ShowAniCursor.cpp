@@ -1,5 +1,10 @@
+// ShowAniCursor by katahiromz
+// License: MIT
 #include <windows.h>
 #include <windowsx.h>
+#include <commctrl.h>
+
+HINSTANCE g_hInst = NULL;
 
 HICON LoadAnimatedIcon(HINSTANCE hInst, LPCTSTR name)
 {
@@ -21,7 +26,7 @@ HCURSOR LoadAnimatedCursor(HINSTANCE hInst, LPCTSTR name)
 
 BOOL OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam)
 {
-    HCURSOR hCursor = LoadAnimatedCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(1));
+    HCURSOR hCursor = LoadAnimatedCursor(g_hInst, MAKEINTRESOURCE(1));
     //HCURSOR hCursor = LoadCursorFromFile(TEXT("searching.ani"));
     SendDlgItemMessage(hwnd, ico1, STM_SETIMAGE, IMAGE_CURSOR, (LPARAM)hCursor);
     return TRUE;
@@ -55,6 +60,8 @@ WinMain(HINSTANCE   hInstance,
         LPSTR       lpCmdLine,
         INT         nCmdShow)
 {
+    g_hInst = hInstance;
+    InitCommonControls();
     DialogBox(hInstance, MAKEINTRESOURCE(1), NULL, DialogProc);
     return 0;
 }
