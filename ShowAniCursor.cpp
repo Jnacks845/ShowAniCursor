@@ -21,9 +21,9 @@ HCURSOR LoadAnimatedCursor(HINSTANCE hInst, LPCTSTR name)
 
 BOOL OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam)
 {
-    HCURSOR hcur = LoadAnimatedCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(1));
-    //HCURSOR hcur = LoadCursorFromFile(TEXT("searching.ani"));
-    SendDlgItemMessage(hwnd, ico1, STM_SETIMAGE, IMAGE_CURSOR, (LPARAM)hcur);
+    HCURSOR hCursor = LoadAnimatedCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(1));
+    //HCURSOR hCursor = LoadCursorFromFile(TEXT("searching.ani"));
+    SendDlgItemMessage(hwnd, ico1, STM_SETIMAGE, IMAGE_CURSOR, (LPARAM)hCursor);
     return TRUE;
 }
 
