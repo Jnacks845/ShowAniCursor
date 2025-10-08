@@ -3,7 +3,7 @@
 
 #pragma code_page(65001) // UTF-8
 
-1 RCDATA "Minecraft's Compass.ani" // ANICURSOR won't work
+1 MYANICURSOR "Minecraft's Compass.ani" // ANICURSOR won't work
 
 1 DIALOG 0, 0, 215, 135
 CAPTION "ShowAniCursor"

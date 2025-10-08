@@ -3,7 +3,7 @@
 
 HICON LoadAniIcon(HINSTANCE hInst, LPCTSTR name)
 {
-    HRSRC hRsrc = FindResource(hInst, name, RT_RCDATA);
+    HRSRC hRsrc = FindResource(hInst, name, TEXT("MYANIICON"));
     DWORD cbData = SizeofResource(hInst, hRsrc);
     HGLOBAL hGlobal = LoadResource(hInst, hRsrc);
     LPVOID pvData = LockResource(hGlobal);
@@ -12,7 +12,7 @@ HICON LoadAniIcon(HINSTANCE hInst, LPCTSTR name)
 
 HCURSOR LoadAniCursor(HINSTANCE hInst, LPCTSTR name)
 {
-    HRSRC hRsrc = FindResource(hInst, name, RT_RCDATA);
+    HRSRC hRsrc = FindResource(hInst, name, TEXT("MYANICURSOR"));
     DWORD cbData = SizeofResource(hInst, hRsrc);
     HGLOBAL hGlobal = LoadResource(hInst, hRsrc);
     LPVOID pvData = LockResource(hGlobal);
